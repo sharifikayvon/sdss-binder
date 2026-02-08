@@ -23,7 +23,7 @@ def setup_marimo():
 			'--base-url', os.environ['JUPYTERHUB_SERVICE_PREFIX'] + 'marimo',
 			'--token', '--token-password', token,
 			'--headless',
-			'notebooks/marimo'
+			'./'
 		],
 		'timeout': 60,
 		'absolute_url': True,
