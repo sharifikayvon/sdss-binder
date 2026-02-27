@@ -1,11 +1,7 @@
 provider: gh
-spec: andycasey/sdss-binder/main
+spec: andycasey/sdss-binder/popeye
 mounts:
-  data/work/lvm: /mnt/home/sdssv/ceph/work/lvm/
-  data/work/mwm: /mnt/home/sdssv/ceph/work/scifest/
-  data/release: /mnt/home/sdssv/ceph/release/
-  data/sandbox: /mnt/home/sdssv/ceph/work/sandbox/
-  #data/raw: /mnt/home/sdssv/ceph/raw/
+  data: /mnt/sdceph/users/acasey/sdss/
 mem: 100G
 users:
   - acasey@flatironinstitute.org
