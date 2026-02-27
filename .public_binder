@@ -1,48 +1,46 @@
 provider: gh
 spec: andycasey/sdss-binder/main
-
 mounts:
   data/work/lvm: /mnt/home/sdssv/ceph/work/lvm/
   data/work/mwm: /mnt/home/sdssv/ceph/work/scifest/
   data/release: /mnt/home/sdssv/ceph/release/
   data/sandbox: /mnt/home/sdssv/ceph/work/sandbox/
   #data/raw: /mnt/home/sdssv/ceph/raw/
-
 mem: 100G
-
 users:
- - acasey@flatironinstitute.org
- - andrew.casey@monash.edu
- - aprice-whelan@flatironinstitute.org
- - kevin.mckinnon@utoronto.ca
- - kevinmckinnon95@gmail.com
- - ccouto@carnegiescience.edu
- - u1363702@utah.edu
- - stonemaa@nmsu.edu
- - astrostonemaa@gmail.com
- - ilija.medan@gmail.com
- - joleen.k.carlberg@gmail.com
- - epinetti@flatironinstitute.org
- - connor.hainje@nyu.edu
- - jak@carnegiescience.edu
- - thomas.hilder@monash.edu
- - david.hogg@nyu.edu
- - dhogg@flatironinstitute.org
- - dwhogg@gmail.com
- - zachway1996@gmail.com
- - michael.blanton@nyu.edu
- - andrew.tkachenko@kuleuven.be
- - gallegoj@uw.edu
- - alexji@uchicago.edu
- - Emily.Griffith-1@colorado.edu
- - mkness@gmail.com
- - aksaydjari@gmail.com
- - andrew.saydjari@princeton.edu
- - stringfellow.guy@gmail.com
- - Guy.Stringfellow@colorado.edu
- - sharifikayvon@gmail.com
- - knd8618@nyu.edu
- - u1363702@gcloud.utah.edu
- - keejos@gmail.com
- - natascha0sattler@gmail.com
- - slepineastro@gmail.com
+  - acasey@flatironinstitute.org
+  - andycasey@gmail.com
+  - andrew.casey@monash.edu
+  - aprice-whelan@flatironinstitute.org
+  - kevin.mckinnon@utoronto.ca
+  - kevinmckinnon95@gmail.com
+  - ccouto@carnegiescience.edu
+  - u1363702@utah.edu
+  - stonemaa@nmsu.edu
+  - astrostonemaa@gmail.com
+  - ilija.medan@gmail.com
+  - joleen.k.carlberg@gmail.com
+  - epinetti@flatironinstitute.org
+  - connor.hainje@nyu.edu
+  - jak@carnegiescience.edu
+  - thomas.hilder@monash.edu
+  - david.hogg@nyu.edu
+  - dhogg@flatironinstitute.org
+  - dwhogg@gmail.com
+  - zachway1996@gmail.com
+  - michael.blanton@nyu.edu
+  - andrew.tkachenko@kuleuven.be
+  - gallegoj@uw.edu
+  - alexji@uchicago.edu
+  - Emily.Griffith-1@colorado.edu
+  - mkness@gmail.com
+  - aksaydjari@gmail.com
+  - andrew.saydjari@princeton.edu
+  - stringfellow.guy@gmail.com
+  - Guy.Stringfellow@colorado.edu
+  - sharifikayvon@gmail.com
+  - knd8618@nyu.edu
+  - u1363702@gcloud.utah.edu
+  - keejos@gmail.com
+  - natascha0sattler@gmail.com
+  - slepineastro@gmail.com
